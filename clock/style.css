@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+main {
+  display: flex;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  box-shadow: 0px 0px 50px 15px white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 440px;
+  height: 440px;
+  background-color: black;
+  position: relative;
+}
+.analog {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+}
+.L {
+  top: 3%;
+  left: 45%;
+}
+.F {
+  bottom: 3%;
+  left: 45%;
+}
+.C {
+  top: 45%;
+  right: 3%;
+}
+.I {
+  top: 45%;
+  left: 3%;
+}
+.A {
+  top: 8%;
+  right: 24%;
+}
+.K {
+  top: 8%;
+  left: 24%;
+}
+.E {
+  bottom: 8%;
+  right: 24%;
+}
+.G {
+  bottom: 8%;
+  left: 24%;
+}
+.J {
+  top: 25%;
+  left: 8%;
+}
+.B {
+  top: 25%;
+  right: 10%;
+}
+.D {
+  bottom: 25%;
+  right: 10%;
+}
+.H {
+  bottom: 25%;
+  left: 10%;
+}
+#hours {
+  margin: 15.5% 0px;
+  height: 150px;
+  width: 5px;
+  background-color: rgba(255, 253, 253, 0.521);
+  position: absolute;
+  left: 49%;
+  transform-origin: bottom;
+}
+#min {
+  margin: 12% 0px;
+  height: 170px;
+  width: 5px;
+  background-color: rgb(176, 143, 143);
+  position: absolute;
+  left: 49%;
+  transform-origin: bottom;
+}
+#sec {
+  margin: 14% 0px;
+  height: 155px;
+  width: 5px;
+  background-color: rgb(214, 0, 0);
+  position: absolute;
+  left: 49%;
+  transform-origin: bottom;
+}
+.center {
+  border-radius: 50%;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  top: 48.5%;
+  left: 48.5%;
+}
+@media screen and (min-width: 300px) and (max-width: 650px) {
+  .inner {
+    width: 150px;
+    height: 150px;
+  }
+  .analog {
+    font-size: 20px;
+  }
+  #hours {
+    margin: 18% 0px;
+    height: 48px;
+    width: 2px;
+    left: 49%;
+  }
+  #min {
+    margin: 12% 0px;
+    height: 56px;
+    width: 2px;
+    left: 49%;
+  }
+  #sec {
+    margin: 14% 0px;
+    height: 53px;
+    width: 1px;
+    left: 49.5%;
+  }
+  .center {
+    width: 7px;
+    height: 7px;
+    top: 47.5%;
+    left: 47.5%;
+  }
+}
