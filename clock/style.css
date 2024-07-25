@@ -30,51 +30,51 @@ main {
 }
 .L {
   top: 3%;
-  left: 45%;
+  left: 44%;
+}
+.A {
+  top: 5.5%;
+  right: 25.5%;
+}
+.B {
+  top: 21%;
+  right: 9%;
+}
+.C {
+  top: 43%;
+  right: 3%;
+}
+.D {
+  bottom: 21%;
+  right: 10%;
+}
+.E {
+  bottom: 6%;
+  right: 26.5%;
 }
 .F {
   bottom: 3%;
   left: 45%;
 }
-.C {
-  top: 45%;
-  right: 3%;
-}
-.I {
-  top: 45%;
-  left: 3%;
-}
-.A {
-  top: 8%;
-  right: 24%;
-}
-.K {
-  top: 8%;
-  left: 24%;
-}
-.E {
-  bottom: 8%;
-  right: 24%;
-}
 .G {
-  bottom: 8%;
-  left: 24%;
-}
-.J {
-  top: 25%;
-  left: 8%;
-}
-.B {
-  top: 25%;
-  right: 10%;
-}
-.D {
-  bottom: 25%;
-  right: 10%;
+  bottom: 7%;
+  left: 25%;
 }
 .H {
-  bottom: 25%;
-  left: 10%;
+  bottom: 22.2%;
+  left: 9%;
+}
+.I {
+  top: 43%;
+  left: 3%;
+}
+.J {
+  top: 22%;
+  left: 8%;
+}
+.K {
+  top: 5.5%;
+  left: 24%;
 }
 #hours {
   margin: 15.5% 0px;
@@ -113,6 +113,16 @@ main {
   top: 48.5%;
   left: 48.5%;
 }
+#Day {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 0px 2px;
+  font-size: 30px;
+  position: absolute;
+  top: 46%;
+  left: 58%;
+}
 @media screen and (min-width: 300px) and (max-width: 650px) {
   .inner {
     width: 150px;
@@ -144,5 +154,8 @@ main {
     height: 7px;
     top: 47.5%;
     left: 47.5%;
+  }
+  #Day {
+    font-size: 10px;
   }
 }
